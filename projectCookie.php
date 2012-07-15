@@ -38,7 +38,7 @@ isset($_POST['ToCountry'])?$ToCountry = $_POST['ToCountry']:$ToCountry = '';
 
 
 
-$link = mysql_connect("xxxx", "xxxx", "xxxx!");
+$link = mysql_connect("xxxx", "xxxx", "xxxx");
 	if (!$link) {
 		die('Could not connect: ' . mysql_error());
 	}
